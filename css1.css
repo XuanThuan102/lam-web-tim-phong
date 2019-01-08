@@ -1,0 +1,85 @@
+body{
+	margin: 0px;
+	height: 100%;
+	padding:0px;
+	background-image: url(nen.svg);
+}
+.menu{
+	background-color: white;
+	box-shadow: 1px 0px 2px;
+	padding: 0px;
+	border: solid none;
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon_menu{
+	padding: 3px 10px 0px 10px;
+	border:1px solid none;
+	cursor:pointer;
+}
+.icon_menu:hover{
+	background-color: #e2e2e2;
+}
+.ten_menu{
+	padding: 3px 10px 0px 10px;
+	border:1px solid none;
+	cursor:pointer;
+}
+.login_menu{
+	padding: 3px 10px 0px 10px;
+	border:1px solid none;
+	cursor:pointer;
+}
+.login_menu:hover{
+	background-color: #e2e2e2;
+}
+.slogan{
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	opacity: 0.66;
+	margin-top: 50px;
+	font-family: Arial;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+.search_home{
+	width: 860px;
+	height: 170px;
+	background-color: white;
+	border-radius: 7px;
+	margin-top: 35px;
+	box-shadow: 1px 1px 2px;
+	text-align: center;
+	cursor:pointer;
+}
+.search_home:hover{
+	background-color: #e2e2e2;
+}
+.search_home1{
+	width: 400px;
+	height: 170px;
+	background-color: white;
+	border-radius: 7px;
+	margin-top: 35px;
+	margin-right: 30px;
+	margin-left: 30px;
+	box-shadow: 1px 1px 2px;
+	text-align: center;
+	cursor:pointer;
+}
+.search_home1:hover{
+	background-color: #e2e2e2;
+}
+
+.footer{
+	position:absolute;
+	right: 5px;
+	padding: 2px;
+	font-size: 15px;
+	bottom: 0;
+	height: 18px;
+}
