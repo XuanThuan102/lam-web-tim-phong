@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>nhập phòng</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body{
+		background-color: gray;
+	}
+	a:link{
+    text-decoration: none;
+	}
+	nav{
+		position: fixed;
+  top: 0;
+	}
+	#footer {
+		text-align: right;
+	}
+</style>
+<body>
+	<nav class="navbar bg-light navbar-light">
+		<a class="navbar-brand" href="hom1.html" title="Home">
+			<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yOS43MDcsMTUuNzkzbC0xMy0xM2MtMC4zOTEtMC4zOTEtMS4wMjMtMC4zOTEtMS40MTQsMGwtMTMsMTNjLTAuMzkxLDAuMzkxLTAuMzkxLDEuMDIzLDAsMS40MTRzMS4wMjMsMC4zOTEsMS40MTQsMCAgTDE2LDQuOTE0bDguMDE0LDguMDE0QzI0LjAxMywxMi45NTMsMjQsMTIuOTc1LDI0LDEzdjE1SDhWMThjMC0wLjU1My0wLjQ0OC0xLTEtMXMtMSwwLjQ0Ny0xLDF2MTFjMCwwLjU1MywwLjQ0OCwxLDEsMWgxOCAgYzAuNTUzLDAsMS0wLjQ0NywxLTFWMTQuOTE0bDIuMjkzLDIuMjkzQzI4LjQ4OCwxNy40MDIsMjguNzQ0LDE3LjUsMjksMTcuNXMwLjUxMi0wLjA5OCwwLjcwNy0wLjI5MyAgQzMwLjA5OCwxNi44MTYsMzAuMDk4LDE2LjE4NCwyOS43MDcsMTUuNzkzeiIvPjwvc3ZnPg==" alt="Logo" style="width:40px;">
+		</a>
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link active" href="hom1.html" title="tên web">Active</a>
+			</li>
+		</ul>
+		<a class="navbar-brand" href="#" title="Login" onclick='alert("không có gì đâu 😂😂😂")'>
+			<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAxOSIgaWQ9IkxheWVyXzE5Ij48cGF0aCBkPSJNMzIsMzJBMTYsMTYsMCwxLDEsNDgsMTYsMTYsMTYsMCwwLDEsMzIsMzJaTTMyLDJBMTQsMTQsMCwxLDAsNDYsMTYsMTQsMTQsMCwwLDAsMzIsMloiLz48cGF0aCBkPSJNNTYsNjRIN2ExLDEsMCwwLDEtMS0xVjU1LjVhMjUuNSwyNS41LDAsMCwxLDUxLDBWNjNBMSwxLDAsMCwxLDU2LDY0Wk04LDYySDU1VjU1LjVhMjMuNSwyMy41LDAsMCwwLTQ3LDBaIi8+PC9nPjwvc3ZnPg==" style="width: 40px">
+		</a>
+	</nav>
+
+	<div class="container mt-3">
+		<div id="wrapper">
+		    <div class="row">
+		        <div class="col-md-2">
+
+		        </div>
+		        <div class="col-md-8" style="background-color: white; border-radius: 15px">
+		            <h2 class="mt-3 mb-3"><b>nhập thông tin phòng trọ</b></h2>
+		            <label class="mt-3" for="tien">loại phòng:</label>
+			            <div class="form-check ml-3">
+			            	<label class="form-check-label" style="margin-right: 40px">
+	    						<input type="radio" class="form-check-input" name="optradio"><p style="cursor:pointer">chủ quản</p>
+							</label>
+							<label class="form-check-label ml-3">
+	    						<input type="radio" class="form-check-input" name="optradio"><p style="cursor:pointer">tự quản</p>
+							</label>
+			            </div>
+				            <form action="/action_page.php" method="post">
+				            	<div class="form-group">
+		                    		<label for="ten">Tên phòng trọ (tên chủ nhà):</label>
+		                    		<input type="text" name="ten" class="form-control" required>
+		                		</div>
+				                <div class="form-group">
+				                    <label for="tien">giá tiền:</label>
+				                    <div class="input-group">
+					                    <input type="text" name="tien" class="form-control" placeholder="100.000" required>
+					                    <div class="input-group-append">
+									    	<span class="input-group-text">VND</span>
+										</div>
+									</div>
+				                </div>
+				                <div class="form-group">
+				                    <label for="dien-tich">diện tích:</label>
+				                    <div class="input-group">
+					                    <input type="text" name="dien-tich" class="form-control" placeholder="100.000" required>
+					                    <div class="input-group-append">
+									    	<span class="input-group-text">VND</span>
+										</div>
+									</div>
+				                </div>
+				                <div class="form-group">
+		                    	<label for="loai-phong">loại phòng:</label>
+			                    	<select name="loai-phong" class="custom-select">
+									    <option selected>khép kín</option>
+									    <option>không khép kín</option>
+									</select>
+		                		</div>
+		                		<div class="form-group">
+				                    <label for="gia-dien">giá điện:</label>
+				                    <div class="input-group">
+					                    <input type="text" name="gia-dien" class="form-control" placeholder="100.000" required>
+					                    <div class="input-group-append">
+									    	<span class="input-group-text">VND</span>
+										</div>
+									</div>
+				                </div>
+				                <div class="form-group">
+				                    <label for="gia-nuoc">giá nước:</label>
+				                    <div class="input-group">
+					                    <input type="text" name="gia-nuoc" class="form-control" placeholder="100.000" required>
+					                    <div class="input-group-append">
+									    	<span class="input-group-text">VND</span>
+										</div>
+									</div>
+				                </div>
+				                <div class="form-group">
+									<label>ghi chú thêm:</label>
+									<textarea class="form-control" rows="5" id="comment"></textarea>
+								</div>
+				                <div class="d-flex justify-content-center">
+		                			<button type="submit" class="btn btn-primary btn-lg mt-3 mb-3">Xong</button>
+		            			</div>
+				            </form>
+		        </div>
+		        <div class="col-md-2"></div>
+		    </div>
+		</div>
+	</div>
+	<footer id="footer">
+		<a href="https://www.facebook.com/yoo.yoo.050" title="facebook" target="_blank">liên hệ</a>
+	</footer>
+</body>
+</html>
