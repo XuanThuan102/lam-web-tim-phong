@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>list</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body{
+		background-color: gray;
+	}
+	a:link{
+    text-decoration: none;
+	}
+	nav{
+		position: fixed;
+  top: 0;
+	}
+	#footer {
+		text-align: right;
+	}
+	.box {
+		background-color: white;
+		height: 200px;
+		border-radius: 20px;
+	}
+	.box table tr td img{
+		height: 25px;
+		width: 25px;
+	}
+	.box img{
+		height: 90px;
+		width: 90px;
+
+	}
+</style>
+</head>
+<body>
+	<nav class="navbar bg-light navbar-light">
+		<a class="navbar-brand" href="hom1.html" title="Home">
+			<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yOS43MDcsMTUuNzkzbC0xMy0xM2MtMC4zOTEtMC4zOTEtMS4wMjMtMC4zOTEtMS40MTQsMGwtMTMsMTNjLTAuMzkxLDAuMzkxLTAuMzkxLDEuMDIzLDAsMS40MTRzMS4wMjMsMC4zOTEsMS40MTQsMCAgTDE2LDQuOTE0bDguMDE0LDguMDE0QzI0LjAxMywxMi45NTMsMjQsMTIuOTc1LDI0LDEzdjE1SDhWMThjMC0wLjU1My0wLjQ0OC0xLTEtMXMtMSwwLjQ0Ny0xLDF2MTFjMCwwLjU1MywwLjQ0OCwxLDEsMWgxOCAgYzAuNTUzLDAsMS0wLjQ0NywxLTFWMTQuOTE0bDIuMjkzLDIuMjkzQzI4LjQ4OCwxNy40MDIsMjguNzQ0LDE3LjUsMjksMTcuNXMwLjUxMi0wLjA5OCwwLjcwNy0wLjI5MyAgQzMwLjA5OCwxNi44MTYsMzAuMDk4LDE2LjE4NCwyOS43MDcsMTUuNzkzeiIvPjwvc3ZnPg==" alt="Logo" style="width:40px;">
+		</a>
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link active" href="hom1.html" title="tên web">Active</a>
+			</li>
+		</ul>
+		<a class="navbar-brand" href="#" title="Login" onclick='alert("không có gì đâu 😂😂😂")'>
+			<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAxOSIgaWQ9IkxheWVyXzE5Ij48cGF0aCBkPSJNMzIsMzJBMTYsMTYsMCwxLDEsNDgsMTYsMTYsMTYsMCwwLDEsMzIsMzJaTTMyLDJBMTQsMTQsMCwxLDAsNDYsMTYsMTQsMTQsMCwwLDAsMzIsMloiLz48cGF0aCBkPSJNNTYsNjRIN2ExLDEsMCwwLDEtMS0xVjU1LjVhMjUuNSwyNS41LDAsMCwxLDUxLDBWNjNBMSwxLDAsMCwxLDU2LDY0Wk04LDYySDU1VjU1LjVhMjMuNSwyMy41LDAsMCwwLTQ3LDBaIi8+PC9nPjwvc3ZnPg==" style="width: 40px">
+		</a>
+	</nav>
+	<div class="container mt-5">
+		<div id="wrapper">
+			<div class="row">
+				<div class="col-1"></div>
+
+				<div class="col-10">
+					<div class="box mt-3">
+						<a href="#" title="tên phòng 1"><h1 class="pl-5">tên phòng 1</h1></a>
+						<img src="house.svg">một số ảnh ở đây
+						<table class="table">
+							<tr>
+								<td><img src="house.svg"> tự quản</td>
+								<td><img src="building.svg"> địa điểm</td>
+								<td><img src="Location.svg"> diện tích</td>
+								<td><img src="Comments.svg"> nhận xét</td>
+							</tr>
+						</table>
+					</div>
+					<div class="box mt-3">
+						<a href="#" title="tên phòng 2"><h1 class="pl-5">tên phòng 2</h1></a>
+						<img src="house.svg">một số ảnh ở đây
+						<table class="table">
+							<tr>
+								<td><img src="house.svg"> tự quản</td>
+								<td><img src="building.svg"> địa điểm</td>
+								<td><img src="Location.svg"> diện tích</td>
+								<td><img src="Comments.svg"> nhận xét</td>
+							</tr>
+						</table>
+					</div>
+					<div class="box mt-3">
+						<a href="#" title="tên phòng 3"><h1 class="pl-5">tên phòng 3</h1></a>
+						<img src="house.svg">một số ảnh ở đây
+						<table class="table">
+							<tr>
+								<td><img src="house.svg"> tự quản</td>
+								<td><img src="building.svg"> địa điểm</td>
+								<td><img src="Location.svg"> diện tích</td>
+								<td><img src="Comments.svg"> nhận xét</td>
+							</tr>
+						</table>
+					</div>
+					<div class="d-flex justify-content-center mt-3">
+						<ul class="pagination">
+						    <li class="page-item"><a class="page-link" href="#">1</a></li>
+						    <li class="page-item"><a class="page-link" href="#">2</a></li>
+						    <li class="page-item"><a class="page-link" href="#">3</a></li>
+						    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<a href="https://www.facebook.com/yoo.yoo.050" title="facebook" target="_blank">liên hệ</a>
+	</footer>
+</body>
+</html>
